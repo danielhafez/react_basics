@@ -52,3 +52,36 @@
   width: 400px;
   display: block;
 }
+
+.Box1,
+.ChildrenBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 90%;
+}
+
+.Box1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightcoral;
+}
+
+.ChildrenBox {
+  width: 90%;
+  height: 90%;
+  background-color: lightblue;
+  border: solid black;
+}
+
+.Box3 {
+  background-color: lightgreen;
+  flex-direction: column;
+}
+
+.Box4 {
+  background-color: beige;
+  width: 80%;
+  height: 50%;
+  margin: 50px;
+}
