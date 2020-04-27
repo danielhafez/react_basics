@@ -1,20 +1,19 @@
 import React from 'react';
 import './App.css';
-import Box1 from './Boxes';
-import ChildrenBox from './ChildrenBox';
+import users from './Day2/user-data';
+import PresentUsers from './Day2/PresentUser';
 
 function App() {
   return (
     <div className='App'>
-      <Box1>
-        {' '}
-        <ChildrenBox>
-          <ChildrenBox class={'Box3'}>
-            <ChildrenBox class={'Box4'}></ChildrenBox>
-            <ChildrenBox class={'Box4'}></ChildrenBox>
-          </ChildrenBox>
-        </ChildrenBox>
-      </Box1>
+      <link
+        rel='stylesheet'
+        href='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'
+        integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh'
+        crossorigin='anonymous'
+      />
+
+      <PresentUsers></PresentUsers>
     </div>
   );
 }
