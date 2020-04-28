@@ -4,7 +4,7 @@ class AlertAlive extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      message: 'Hello World',
+      message: 'I am alive',
     };
   }
 
