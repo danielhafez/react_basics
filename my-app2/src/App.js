@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 import AlertAlive from './components/AlertAlive';
+import Checkbox from './components/Checkbox';
 
 function App() {
   return (
     <div className='App'>
-      <AlertAlive message={'Hello!'}></AlertAlive>
+      <Checkbox>
+        {' '}
+        <AlertAlive message={'You checked the box!'}></AlertAlive>
+      </Checkbox>
     </div>
   );
 }

@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form-container {
+  display: flex;
+}
+
+.form-container i {
+  cursor: pointer;
+}
+
+.search.search-input {
+  padding-left: 43px;
+  padding-right: 43px;
+  border-radius: 23px;
+}
+
+.send-mine {
+  border-top-right-radius: 23px !important;
+  border-bottom-right-radius: 23px !important;
+  padding-right: 20px !important;
+}
